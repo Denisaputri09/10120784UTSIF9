@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">10120784UTSIF9</string>
+    <string name="next">NEXT</string>
+    <string name="skip_intro">SKIP INTRO</string>
+    <string name="title_text">Title Text</string>
+    <string name="title_description">Title Description</string>
+    <string name="self">MYSELF APPS</string>
+    <string name="uts">UTS AKB - IF9</string>
+   
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kenal">Hi! My name is Denisa Alyaa Putri, you can call me denis.</string>
+
+</resources>

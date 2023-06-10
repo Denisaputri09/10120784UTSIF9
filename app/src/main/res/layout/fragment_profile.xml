@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Tanggal pengerjaan : 07/06/2023
+    Nim : 10120784
+    Nama : Denisa Alyaa Putri
+    Kelas : IF-9 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment"
+    android:background="#F6FFDE">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg_home">
+    </View>
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgdenisa"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/denisa"
+        android:layout_centerHorizontal="true"
+        app:shapeAppearanceOverlay="@style/roundImageView">
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_below="@id/imgdenisa"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="denisaalyaa_"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardprofile"
+        android:layout_below="@id/nama"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#F6FFDE"
+        app:cardElevation="12dp">
+
+        <TextView
+            android:id="@+id/txtknl"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/kenal">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_below="@id/cardprofile"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        app:cardBackgroundColor="#F6FFDE"
+        app:cardElevation="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/LLsosmed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/call">
+                </ImageView>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/call"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="089629909488"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp">
+                    </TextView>
+
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/garis"
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="7dp"
+                android:background="#EAEAEA"
+                android:visibility="visible"
+                tools:ignore="NotSibling" />
+
+            <LinearLayout
+                android:id="@+id/LLMusic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/garis">
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/email">
+                </ImageView>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/mail"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="denisaputri789@gmail.com"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp">
+                    </TextView>
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/garis2"
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginLeft="7dp"
+                android:background="#EAEAEA"
+                android:visibility="visible"
+                tools:ignore="NotSibling" />
+
+            <LinearLayout
+                android:id="@+id/LLMusic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/garis2">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ig">
+                </ImageView>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/ig"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="denisaalyaa_"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp">
+                    </TextView>
+
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/garis3"
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="210dp"
+                android:layout_marginLeft="7dp"
+                android:background="#EAEAEA"
+                android:visibility="visible"
+                tools:ignore="NotSibling" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

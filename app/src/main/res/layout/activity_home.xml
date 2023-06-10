@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Tanggal pengerjaan : 07/06/2023
+    Nim : 10120784
+    Nama : Denisa Alyaa Putri
+    Kelas : IF-9 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="#F6FFDE">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/bg_home">
+    </View>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgdenisa"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/denisa"
+        android:layout_centerHorizontal="true"
+        app:shapeAppearanceOverlay="@style/roundImageView">
+    </com.google.android.material.imageview.ShapeableImageView>
+    
+    <TextView
+        android:id="@+id/nama"
+        android:layout_below="@id/imgdenisa"
+        android:layout_marginTop="20dp"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="DENISA ALYAA PUTRI"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_below="@id/nama"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:text="A girl who loves sunset"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+    android:id="@+id/card"
+    android:layout_below="@id/deskripsi"
+    android:layout_width="380dp"
+    android:layout_height="100dp"
+    app:cardCornerRadius="20dp"
+    android:layout_marginTop="90dp"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    app:cardBackgroundColor="#F6FFDE"
+    app:cardElevation="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:src="@drawable/hobi">
+        </ImageView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/hobi"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="HOBBY"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp">
+            </TextView>
+            <TextView
+                android:id="@+id/hobi2"
+                android:layout_below="@id/hobi"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="MENDENGARKAN MUSIK"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp">
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_below="@id/card"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        app:cardBackgroundColor="#F6FFDE"
+        app:cardElevation="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_music">
+            </ImageView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/interest"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="INTEREST"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp">
+                </TextView>
+                <TextView
+                    android:id="@+id/interest2"
+                    android:layout_below="@id/interest"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="MUSIK"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_below="@id/card2"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        app:cardBackgroundColor="#F6FFDE"
+        app:cardElevation="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:src="@drawable/dream">
+            </ImageView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dream"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="DREAM"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp">
+                </TextView>
+                <TextView
+                    android:id="@+id/dream2"
+                    android:layout_below="@id/dream"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="PENGUSAHA ATAU DATA ANALYST"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp">
+                </TextView>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

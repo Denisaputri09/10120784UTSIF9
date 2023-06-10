@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="730dp"
+    android:background="#F6FFDE"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MusicFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_home">
+        </View>
+        <TextView
+            android:id="@+id/musik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="MUSIC FAVORITE"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/nunito_bold"
+            android:textSize="25sp">
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardM"
+            android:layout_below="@id/musik"
+            android:layout_width="380dp"
+            android:layout_height="500dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            app:cardBackgroundColor="#F6FFDE"
+            app:cardElevation="12dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/LLMusic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/onedirection">
+                    </ImageView>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/oned"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:text="18"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="18dp">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/oneD"
+                            android:layout_below="@id/oned"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="One Direction"
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp">
+                        </TextView>
+                    </RelativeLayout>
+                </LinearLayout>
+                <View
+                    android:id="@+id/garis"
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/oneD"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="#EAEAEA"
+                    android:visibility="visible"
+                    tools:ignore="NotSibling" />
+
+                <LinearLayout
+                    android:id="@+id/LLMusic2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/garis">
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/hilang">
+                    </ImageView>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/hilang"
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:text="Hilang Tanpa Bilang"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="18dp">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/meiska"
+                            android:layout_below="@id/hilang"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Meiska"
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp">
+                        </TextView>
+                    </RelativeLayout>
+                </LinearLayout>
+                <View
+                    android:id="@+id/garis2"
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/meiska"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="#EAEAEA"
+                    android:visibility="visible"
+                    tools:ignore="NotSibling" />
+
+                <LinearLayout
+                    android:id="@+id/LLMusic3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/garis2">
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/smbdy">
+                    </ImageView>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/smbdy"
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:text="Somebody's Pleasure"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="18dp">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/aziz"
+                            android:layout_below="@id/smbdy"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Aziz Hedra"
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp">
+                        </TextView>
+                    </RelativeLayout>
+                </LinearLayout>
+                <View
+                    android:id="@+id/garis3"
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/aziz"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="#EAEAEA"
+                    android:visibility="visible"
+                    tools:ignore="NotSibling" />
+
+                <LinearLayout
+                    android:id="@+id/LLMusic4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/garis3">
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/aboutyou">
+                    </ImageView>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/aboutyou"
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:text="About You"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="18dp">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/The1975"
+                            android:layout_below="@id/aboutyou"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="The 1975"
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp">
+                        </TextView>
+                    </RelativeLayout>
+                </LinearLayout>
+                <View
+                    android:id="@+id/garis4"
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/aziz"
+                    android:layout_marginTop="400dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="#EAEAEA"
+                    android:visibility="visible"
+                    tools:ignore="NotSibling" />
+
+                <LinearLayout
+                    android:id="@+id/LLMusic5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/garis4">
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/tampar">
+                    </ImageView>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tmpar"
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:text="TAMPAR"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="18dp">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/juicy"
+                            android:layout_below="@id/tmpar"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Juicy Luicy"
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp">
+                        </TextView>
+                    </RelativeLayout>
+                </LinearLayout>
+                <View
+                    android:id="@+id/garis5"
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/aziz"
+                    android:layout_marginTop="500dp"
+                    android:layout_marginLeft="7dp"
+                    android:background="#EAEAEA"
+                    android:visibility="visible"
+                    tools:ignore="NotSibling" />
+
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

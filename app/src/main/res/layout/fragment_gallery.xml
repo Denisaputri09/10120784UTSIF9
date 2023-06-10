@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Tanggal pengerjaan : 07/06/2023
+    Nim : 10120784
+    Nama : Denisa Alyaa Putri
+    Kelas : IF-9 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GalleryFragment"
+    android:background="#F6FFDE">
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      app:cardCornerRadius="20dp"
+      app:cardBackgroundColor="#E3F2C1"
+      android:layout_gravity="center_horizontal"
+      android:layout_centerHorizontal="true"
+      app:cardElevation="12dp"
+      android:layout_marginTop="50dp"
+      android:layout_marginBottom="30dp">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <LinearLayout
+              android:id="@+id/LL"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <com.google.android.material.imageview.ShapeableImageView
+                  android:id="@+id/imgpren"
+                  android:layout_width="150dp"
+                  android:layout_height="150dp"
+                  android:layout_marginTop="20dp"
+                  app:srcCompat="@drawable/pren"
+                  android:layout_marginLeft="20dp"
+                  android:layout_centerHorizontal="true"
+                  app:shapeAppearanceOverlay="@style/roundImageView2">
+              </com.google.android.material.imageview.ShapeableImageView>
+              <com.google.android.material.imageview.ShapeableImageView
+                  android:id="@+id/imgpren2"
+                  android:layout_width="150dp"
+                  android:layout_height="150dp"
+                  android:layout_marginTop="20dp"
+                  app:srcCompat="@drawable/pren2"
+                  android:layout_marginLeft="10dp"
+                  android:layout_centerHorizontal="true"
+                  app:shapeAppearanceOverlay="@style/roundImageView2">
+              </com.google.android.material.imageview.ShapeableImageView>
+
+          </LinearLayout>
+          <LinearLayout
+              android:id="@+id/LL2"
+              android:layout_below="@id/LL"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <com.google.android.material.imageview.ShapeableImageView
+                  android:id="@+id/imgpren3"
+                  android:layout_width="150dp"
+                  android:layout_height="150dp"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginLeft="20dp"
+                  app:srcCompat="@drawable/prenn"
+                  android:layout_centerHorizontal="true"
+                  app:shapeAppearanceOverlay="@style/roundImageView2">
+              </com.google.android.material.imageview.ShapeableImageView>
+              <com.google.android.material.imageview.ShapeableImageView
+                  android:id="@+id/imgpren4"
+                  android:layout_width="150dp"
+                  android:layout_height="150dp"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginLeft="10dp"
+                  app:srcCompat="@drawable/pren4"
+                  android:layout_centerHorizontal="true"
+                  app:shapeAppearanceOverlay="@style/roundImageView2">
+              </com.google.android.material.imageview.ShapeableImageView>
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:id="@+id/LL3"
+              android:layout_below="@id/LL2"
+              android:layout_width="match_parent"
+              android:layout_height="190dp">
+              <com.google.android.material.imageview.ShapeableImageView
+                  android:id="@+id/imgpren5"
+                  android:layout_width="150dp"
+                  android:layout_height="150dp"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginLeft="20dp"
+                  app:srcCompat="@drawable/pren5"
+                  android:layout_centerHorizontal="true"
+                  app:shapeAppearanceOverlay="@style/roundImageView2">
+              </com.google.android.material.imageview.ShapeableImageView>
+              <com.google.android.material.imageview.ShapeableImageView
+                  android:id="@+id/imgpren6"
+                  android:layout_width="150dp"
+                  android:layout_height="150dp"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginLeft="10dp"
+                  app:srcCompat="@drawable/pren6"
+                  android:layout_centerHorizontal="true"
+                  app:shapeAppearanceOverlay="@style/roundImageView2">
+              </com.google.android.material.imageview.ShapeableImageView>
+
+          </LinearLayout>
+
+
+      </RelativeLayout>
+  </androidx.cardview.widget.CardView>
+
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="roundImageView" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="roundImageView2" parent="">
+        <item name="cornerSize">20%</item>
+    </style>
+</resources>
